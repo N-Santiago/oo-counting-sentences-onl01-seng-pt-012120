@@ -26,7 +26,7 @@ class String
     end 
   end
 
-  def count_sentences #grep was used to include spaces in the sentence count. 
+  def count_sentences #grep was used to include spaces in array for the sentence count. 
     new_array = self.split(/[.?!]/).grep(/\S/).count
   end
 end
